@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box; /*Para que todos los elementos sigan esta medida*/
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+  background-color: #ccccc9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1{
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  font-size: 3rem;
+}
+.App{
+  height: 600px;
+  width: 500px;
+  border-radius: 3%;
+  display: flex;
+  flex-wrap: wrap; /*Pasan a la siguiente linea si no caben*/
+  align-items:flex-start; /*Alineamiento vertical*/
+  justify-content: center; /*Alineamiento horizontal*/
+}
+.Fila{
+  margin: 5px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+}
+.segunda{
+  margin-top: -1rem;
+}
+#value{
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  border-radius: 6%;
+  border:solid;
+  border-color: #2f4f4fc4;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  margin-top: 5px;
+  border-width: 3px;
+}
+
+
+

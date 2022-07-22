@@ -1,0 +1,9 @@
+.TaskList{
+  font-size: 1.2rem;
+  list-style:none;
+  width: 100%;
+  height: 25rem;
+}
+li{
+  display: flex;
+}

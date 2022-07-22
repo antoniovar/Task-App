@@ -1,3 +1,14 @@
-.true{
-    text-decoration:line-through;
+.tarea{
+  color:white;
+  width: 100%;
+  border: solid;
+  background-color: #2f4f4f8e;
+  margin-top: 5px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 9%;
+}
+.completada{
+  text-decoration:line-through;
+  background-color: black;
 }

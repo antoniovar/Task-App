@@ -1,6 +1,8 @@
-function Button({name, func}) {
+import '../styles/Button.css'
+
+function Button({name, func, little}) {
   return(
-    <button onClick={func} className={name}>{name}</button>
+    <button onClick={func} className={little ? 'button' : 'button clear'}>{name}</button>
   );
 }
 
