@@ -1,4 +1,4 @@
-⚛️ React Task Organizer ⚛️
+# ⚛️ React Task Organizer ⚛️
 
 This is a simple Task Organizer made with React.
 
